@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Ahmad\'s CV</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Ahmad Shahwaiz</string>
+    <string name="resume_title">Teacher | Senior Software Engineer</string>
+    <string name="user_address">Lahore,Pakistan </string>
+    <string-array name="home">
+        <item>Home</item>
+        <item>Profile</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="email">ahmadshahwaiz@gmail.com</string>
+    <string name="Address">Lahore, Pakistan</string>
+    <string name="description">Description</string>
+    <string name="AboutMe_Title">About Me</string>
+    <string name="Question1">Career Goal</string>
+    <string name="Question2">Ownership</string>
+    <string name="experience">Experience</string>
+    <string name="hands_on_skills">Skills</string>
+    <string name="phoneNumber">+923457893015</string>
+    <string name="Linkedin_IdLink">https://www.linkedin.com/in/ahmadshahwaiz</string>
+    <string name="Linkedin_UserName">ahmadshahwaiz</string>
+    <string name="Github_UserName">shahwaiz90</string>
+    <string name="Github_IdLink">https://github.com/shahwaiz90</string>
+    <string name="ieee_link">https://ieeexplore.ieee.org/document/7840114</string>
+    <string name="StackOverFlow_UserName">ahmad-shahwaiz</string>
+    <string name="stackOverFlow_IdLink">https://stackoverflow.com/users/1696950/ahmad-shahwaiz</string>
+    <string name="education">Education</string>
+    <string name="answer">Work give us meaning, so I\'d to work in a optimistic environment. My ultimate goal is to give back to the society using my tech skills.</string>
+    <string name="answer1">I\'m accountable at my work. My priority is to make sure that whatever I develop or contribute into; should be of the highest quality.
+       </string>
+    <string name="experience_title">Senior Software Engineer</string>
+    <string name="experience_description">"\u2713 Picasso,Glide (Libraries)\n""\u2713 MVP \n""\u2713 MVVM \n""\u2713 Room Database\n""\u2713 Firebase"</string>
+    <string name="why_i_did_choose_work_1">"\u2713 Because I need to cache the image\n""\u2713 Design pattern - unit testing easier and lesser\n"\u0020 \u0020 "code size than MVP\n""\u2713 Design pattern - Easier for unit testing\n""\u2713 Save data in a local database using Room\n""\u2713 Firebase provides a realtime database and \n"\u0020 \u0020 "backend as a service"
+
+    </string>
+
+    <string name="year11">(year)</string>
+    <string name="experience_title1">Visiting Faculty</string>
+    <string name="experience_description1">\u2713 Course: Software for Mobile Devices \n\u2713 Course: Advanced Programming\n\u2713 Total Students: 216</string>
+    <string name="experience_year1">(year)</string>
+    <string name="experience_title2">Software Engineer</string>
+    <string name="experience_description2">\u2713 Java for Blackberry SDK 7.1 \n\u2713 Java for Android\n\u2713 Sencha Touch 2 (HTML5)\n\u2713 SMTP Mail Configurations\n\u2713 CronJobs and Task Schedulers for Auto Execution of the Scripts at a given time.</string>
+    <string name="experience_year2">Aug 2012 – Jan 2014</string>
+
+    <string name="project_title">FamilyTime Parental Control</string>
+    <string name="project_description">\u2713 Worked on screen time features for their application.
+        \n\u2713 Made easy and flexible UI/ UX so parents can set screen time limits and other features to their kids.
+    </string>
+    <string name="year">(2019)</string>
+
+    <string name="project_title1">FamilyTime Child App</string>
+    <string name="project_description1">"\u2713 Parental control features on kid's device. </string>
+    <string name="year1">(2019)</string>
+    <string name="project_title2">Smart Restaurant App </string>
+    <string name="project_description2">\u2713 Smart way to manage your Restaurant</string>
+    <string name="year2">(2019)</string>
+    <string name="todo">TODO</string>
+    <string name="email_title">Email</string>
+    <string name="address_title">Address</string>
+    <string name="phone_number_title">Phone Number</string>
+    <string name="professional_links_title">Professional Links</string>
+    <string name="linkedin_title">Linkedin</string>
+    <string name="twitter_title">Twitter</string>
+    <string name="stack_overflow_title">Stack Overflow</string>
+    <string name="github_title">Github</string>
+    <string name="Metric_degree_title">Metric</string>
+    <string name="school_name">Central Model school</string>
+    <string name="intermediate_title">Bachelors of Science in IT (BSIT)</string>
+    <string name="college_title">Punjab University College of Information Technology</string>
+    <string name="graduation_title">Master of Science in CS (MSCS) </string>
+    <string name="university_title">National University College of Computer and Emerging Sciences</string>
+    <string name="degree_title1">IEEE</string>
+    <string name="degree_title2">Degree Title</string>
+    <string name="degree_title3">Degree Title</string>
+    <string name="school_year">(2014)</string>
+    <string name="college_year">(2008 – 2012)</string>
+    <string name="university_year">(2013 – 2016)</string>
+    <string name="Cgpa"></string>
+    <string name="certification_courses_title">Publications</string>
+    <string name="institute_title">A parametric effort estimation model for mobile apps</string>
+    <string name="institute_year">(2016)</string>
+    <string name="grades">(grades)</string>
+    <string name="institute_title1">Institute Title</string>
+    <string name="institude_year1">(year)</string>
+    <string name="grades1">(grades)</string>
+    <string name="institute_title2">Institute Title</string>
+    <string name="institute_year2">(year)</string>
+    <string name="grades2">(grades)</string>
+    <string name="skill_title_1">Android</string>
+    <string name="skill_title_2">Java</string>
+    <string name="skill_title_3">Web Development</string>
+    <string name="skill_title_4">Javascript</string>
+    <string name="skill_title_5">PHP</string>
+    <string name="projects_title">Projects</string>
+    <string name="why_i_did_choose_above_title_0">Why above:</string>
+    <string name="why_i_did_choose_above_title_1">Why did I choose to teach:</string>
+    <string name="why_i_did_choose_work_2">"\u2713" Teaching does not finish when we give our students the information, it can be acquired from many sources, but the ability to think, reason and criticize can only be incorporated if we foster and encourage them through thick and thin.</string>
+    <string name="why_i_did_choose_work_3">"\u2713" Client based company, so considering the requirements from clients and keeping in point latest technology at that time I used above technology stack. </string>
+    <string name="company_name1">YumyApps Pvt Ltd</string>
+    <string name="experience_time1">November 2016 - October (3 years)</string>
+    <string name="worked_on_title">Worked On:</string>
+    <string name="company_name2">National University College of Computer and Emerging Sciences</string>
+    <string name="experience_time2">August 2018 - December 2019 (~1.5 years)</string>
+    <string name="worked_on2">Worked On:</string>
+    <string name="company_name3">MobilezApp inc</string>
+    <string name="experience_time3">August 2012 - January 2014 (1.6 years)</string>
+    <string name="worked_on3">Worked On:</string>
+
+
+</resources>
