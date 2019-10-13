@@ -1,16 +1,19 @@
 package com.faizan_atif.cv.fragments;
+
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.faizan_atif.cv.model.DemoItem;
 import com.faizan_atif.cv.adapters.EducationAdapter;
 import com.faizan_atif.cv.base.R;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import com.faizan_atif.cv.model.EducationModel;
+
 import java.util.ArrayList;
 import java.util.List;
 /**
@@ -38,14 +41,36 @@ public class EducationFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_blank_fragment2, container, false);
         RecyclerView recyclerViewDemo = view.findViewById(R.id.recyclerViewDemo1);
         recyclerViewDemo.setLayoutManager(new LinearLayoutManager(getContext()));
-       recyclerViewDemo.setAdapter(new EducationAdapter(feedItems(), getContext()));
+
+        RecyclerView recyclerViewDemo2 = view.findViewById(R.id.recyclerViewDemo2);
+        recyclerViewDemo2.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        recyclerViewDemo.setAdapter(new EducationAdapter(feedItems(), getContext()));
+        recyclerViewDemo2.setAdapter(new EducationAdapter(feedItems2(), getContext()));
+
         return view;
     }
-    private List<DemoItem> feedItems() {
-        String Titles = "Education Section" ;
-        List<DemoItem> demoItems = new ArrayList<>();
-        DemoItem demoItem = new DemoItem(Titles);
-        demoItems.add(demoItem);
+    private List<EducationModel> feedItems() {
+//        String Titles = "Education Section" ;
+        List<EducationModel> demoItems = new ArrayList<>();
+        demoItems.add(new EducationModel("BS","FAST", "2017 -", R.drawable.fastlogo));
+        demoItems.add(new EducationModel("FSC","PGC", "2015 - 2017", R.drawable.ieee));
+        demoItems.add(new EducationModel("Matric","St.Antony", "-2013", R.drawable.pucitlogo));
+
+//        DemoItem demoItem = new DemoItem(Titles);
+//        demoItems.add(demoItem);
+        return demoItems;
+
+    }
+    private List<EducationModel> feedItems2() {
+//        String Titles = "Education Section" ;
+        List<EducationModel> demoItems = new ArrayList<>();
+        demoItems.add(new EducationModel("IEEE","EE dept", " - 2019", R.drawable.linkedin));
+        demoItems.add(new EducationModel("Softec","Global", " - 2020", R.drawable.github));
+  //      demoItems.add(new EducationModel("Matric","St.Antony", "-2013", R.drawable.pucitlogo));
+
+//        DemoItem demoItem = new DemoItem(Titles);
+//        demoItems.add(demoItem);
         return demoItems;
 
     }

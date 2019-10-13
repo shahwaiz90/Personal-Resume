@@ -59,10 +59,10 @@ public class ScrollingActivity extends AppCompatActivity {
 
     private void setupTabIcons() {
        final int[] tabIcons = {
-                R.drawable.ic_person_black_24dp,
-                R.drawable.education,
-                R.drawable.tool
-        };
+            R.drawable.ic_person_black_24dp,
+            R.drawable.education,
+            R.drawable.tool
+       };
         Objects.requireNonNull(tabLayout.getTabAt(0)).setIcon(tabIcons[0]);
         Objects.requireNonNull(tabLayout.getTabAt(1)).setIcon(tabIcons[1]);
         Objects.requireNonNull(tabLayout.getTabAt(2)).setIcon(tabIcons[2]);
@@ -103,7 +103,7 @@ public class ScrollingActivity extends AppCompatActivity {
             Intent i=new Intent(android.content.Intent.ACTION_SEND);
             i.setType("text/plain");
             i.putExtra(android.content.Intent.EXTRA_SUBJECT,"Click the following link");
-            i.putExtra(android.content.Intent.EXTRA_TEXT, "https://shahwaiz90.github.io/resume/");
+            i.putExtra(android.content.Intent.EXTRA_TEXT, "https://faizan387.github.io/resume/");
             startActivity(Intent.createChooser(i,"Share via"));
             return true;
         }
