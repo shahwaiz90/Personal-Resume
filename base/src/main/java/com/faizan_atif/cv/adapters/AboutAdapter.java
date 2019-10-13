@@ -1,4 +1,4 @@
-package com.ahmad.cv.adapters;
+package com.faizan_atif.cv.adapters;
 import android.app.Activity;
 import android.content.ClipData;
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.base.R;
+import com.faizan_atif.cv.model.DemoItem;
+import com.faizan_atif.cv.base.R;
 import com.squareup.picasso.Picasso;
 import java.util.List;
 import static android.content.Context.CLIPBOARD_SERVICE;

@@ -1,4 +1,4 @@
-package com.ahmad.cv.model;
+package com.faizan_atif.cv.model;
 
 public class DemoItem {
     private String title;

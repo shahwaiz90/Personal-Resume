@@ -1,4 +1,4 @@
-package com.ahmad.cv.activities;
+package com.faizan_atif.cv.activities;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -8,11 +8,11 @@ import android.os.Bundle;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.rhexgomez.typer.roboto.TyperRoboto;
-import com.ahmad.cv.adapters.ViewPagerAdapter;
-import com.ahmad.cv.base.R;
-import com.ahmad.cv.fragments.AboutFragment;
-import com.ahmad.cv.fragments.EducationFragment;
-import com.ahmad.cv.fragments.ProfessionFragment;
+import com.faizan_atif.cv.adapters.ViewPagerAdapter;
+import com.faizan_atif.cv.base.R;
+import com.faizan_atif.cv.fragments.AboutFragment;
+import com.faizan_atif.cv.fragments.EducationFragment;
+import com.faizan_atif.cv.fragments.ProfessionFragment;
 import com.squareup.picasso.Picasso;
 
 import androidx.annotation.RequiresApi;
@@ -29,6 +29,7 @@ public class ScrollingActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.P)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Add a line
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
         tabLayout = findViewById(R.id.tabs);

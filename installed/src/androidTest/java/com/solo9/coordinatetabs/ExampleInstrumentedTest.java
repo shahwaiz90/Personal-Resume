@@ -1,4 +1,4 @@
-package com.ahmad.coordinatetabs;
+package com.faizan_atif.coordinatetabs;
 
 import android.content.Context;
 

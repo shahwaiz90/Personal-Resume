@@ -1,29 +1,28 @@
-package com.ahmad.cv.fragments;
+package com.faizan_atif.cv.fragments;
 import android.os.Bundle;
-
-import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.adapters.ProfessionAdapter;
-import com.ahmad.cv.base.R;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.faizan_atif.cv.model.DemoItem;
+import com.faizan_atif.cv.adapters.EducationAdapter;
+import com.faizan_atif.cv.base.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import java.util.ArrayList;
 import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ProfessionFragment extends Fragment {
+public class EducationFragment extends Fragment {
 
-    public ProfessionFragment() {
+    public EducationFragment() {
         // Required empty public constructor
     }
-    public static ProfessionFragment newInstance() {
-        ProfessionFragment fragment = new ProfessionFragment();
+    public static EducationFragment newInstance() {
+        EducationFragment fragment = new EducationFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -36,15 +35,14 @@ public class ProfessionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
-        RecyclerView recyclerViewDemo = view.findViewById(R.id.recyclerViewDemo3);
+        View view = inflater.inflate(R.layout.fragment_blank_fragment2, container, false);
+        RecyclerView recyclerViewDemo = view.findViewById(R.id.recyclerViewDemo1);
         recyclerViewDemo.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerViewDemo.setAdapter(new ProfessionAdapter(feedItems(), getContext()));
+       recyclerViewDemo.setAdapter(new EducationAdapter(feedItems(), getContext()));
         return view;
     }
-
     private List<DemoItem> feedItems() {
-        String Titles = "Profession Section";
+        String Titles = "Education Section" ;
         List<DemoItem> demoItems = new ArrayList<>();
         DemoItem demoItem = new DemoItem(Titles);
         demoItems.add(demoItem);
@@ -52,3 +50,7 @@ public class ProfessionFragment extends Fragment {
 
     }
 }
+
+
+
+

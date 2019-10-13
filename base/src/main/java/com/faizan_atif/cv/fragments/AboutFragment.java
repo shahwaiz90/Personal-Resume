@@ -1,13 +1,13 @@
-package com.ahmad.cv.fragments;
+package com.faizan_atif.cv.fragments;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.adapters.AboutAdapter;
-import com.ahmad.cv.base.R;
+import com.faizan_atif.cv.model.DemoItem;
+import com.faizan_atif.cv.adapters.AboutAdapter;
+import com.faizan_atif.cv.base.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
