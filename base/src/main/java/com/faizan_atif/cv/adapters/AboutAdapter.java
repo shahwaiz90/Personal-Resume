@@ -95,18 +95,18 @@ public class AboutAdapter extends RecyclerView.Adapter {
             }
         });
         demoItemHolder.linkedin.setOnClickListener(view -> {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("linkedin://add/%@" + context.getString(R.string.Linkedin_IdLink)));
-            final PackageManager packageManager = context.getPackageManager();
-            final List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
-            if (list.isEmpty()) {
-                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.linkedin.com/profile/view?id=" + (R.string.Linkedin_IdLink)));
-            }
-            context.startActivity(intent);
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.Linkedin_IdLink)));
+//            final PackageManager packageManager = context.getPackageManager();
+//            final List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
+//            if (list.isEmpty()) {
+//                intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.linkedin.com/profile/view?id=" + (R.string.Linkedin_IdLink)));
+//            }
+            context.startActivity(Intent.createChooser(intent,"Share via"));
         });
 
         demoItemHolder.github.setOnClickListener(view -> {
             Intent  intent = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.Github_IdLink)));
-            context.startActivity(intent);
+            context.startActivity(Intent.createChooser(intent,"Share via"));
         });
         demoItemHolder.stackOverFlow.setOnClickListener(view -> {
            Intent  intent = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getString(R.string.stackOverFlow_IdLink)));

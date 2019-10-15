@@ -20,7 +20,7 @@
     <string name="experience">Experience</string>
     <string name="hands_on_skills">Skills</string>
     <string name="phoneNumber">+923364007926</string>
-    <string name="Linkedin_IdLink">https://www.https://www.linkedin.com/in/faizan-atif-278745172</string>
+    <string name="Linkedin_IdLink">https://www.linkedin.com/in/faizan-atif-278745172</string>
     <string name="Linkedin_UserName">faizan-atif-278745172</string>
     <string name="Github_UserName">faizan387</string>
     <string name="Github_IdLink">https://github.com/faizan387</string>
@@ -44,14 +44,25 @@
     <string name="experience_description2">\u2713 Java for Blackberry SDK 7.1 \n\u2713 Java for Android\n\u2713 Sencha Touch 2 (HTML5)\n\u2713 SMTP Mail Configurations\n\u2713 CronJobs and Task Schedulers for Auto Execution of the Scripts at a given time.</string>
     <string name="experience_year2">Aug 2012 – Jan 2014</string>
 
-    <string name="project_title">FamilyTime Parental Control</string>
-    <string name="project_description">\u2713 Worked on screen time features for their application.
-        \n\u2713 Made easy and flexible UI/ UX so parents can set screen time limits and other features to their kids.
+    <string name="project_title">Freelancing website clone</string>
+    <string name="project_description">
+        \u2713 Worked in .NET MVC framework in android studio and SQL server management studio.
+        \n\u2713 Worked on backend features for the web application.
+        \n\u2713 Made Registration functionality and handled database.
     </string>
     <string name="year">(2019)</string>
 
-    <string name="project_title1">FamilyTime Child App</string>
-    <string name="project_description1">"\u2713 Parental control features on kid's device. </string>
+    <string name="project_title1">Weater App</string>
+    <string name="project_description1">
+        \u2713 Worked with OpenWeatherMap website api and JSON.
+        \n\u2713 Tells weather about any location.
+    </string>
+
+    <string name="project_title3">Color Game</string>
+    <string name="project_description3">
+        \u2713 Made web app in sublime using javascript.
+        \n\u2713 Fun game to pass time.
+    </string>
     <string name="year1">(2019)</string>
     <string name="project_title2">Smart Restaurant App </string>
     <string name="project_description2">\u2713 Smart way to manage your Restaurant</string>

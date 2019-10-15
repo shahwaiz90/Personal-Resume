@@ -53,9 +53,9 @@ public class EducationFragment extends Fragment {
     private List<EducationModel> feedItems() {
 //        String Titles = "Education Section" ;
         List<EducationModel> demoItems = new ArrayList<>();
-        demoItems.add(new EducationModel("Bachelor of Computer Science(BSCS)","National University of Computer and Emerging Sciences", "(2017 - )", R.drawable.fastlogo));
+        demoItems.add(new EducationModel("Bachelor of Computer Science(BSCS)","National University of Computer and Emerging Sciences", "(2017 - 2021)", R.drawable.fastlogo));
         demoItems.add(new EducationModel("F.Sc. Pre-Engineering","Punjab Group of Colleges", "(2015 - 2017)", R.drawable.pgc_logo));
-        demoItems.add(new EducationModel("Matriculation","St. Anthony High School", "(- 2015)", R.drawable.school_logo));
+        demoItems.add(new EducationModel("Matriculation","St. Anthony High School", "(2015)", R.drawable.school_logo));
 
 //        DemoItem demoItem = new DemoItem(Titles);
 //        demoItems.add(demoItem);

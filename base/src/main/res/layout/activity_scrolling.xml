@@ -82,17 +82,13 @@
                 app:fontFamily="@font/roboto"
                 app:layout_collapseMode="pin"
                 app:layout_scrollFlags="scroll|enterAlways"
-
                 app:tabGravity="fill"
                 app:tabIndicatorColor="@color/blue1Color"
                 app:tabInlineLabel="true"
                 app:tabMode="fixed"
                 app:tabSelectedTextColor="@color/blackColor"
                 app:tabTextAppearance="@style/TabLayoutTextSize"
-                app:tabTextColor="@color/blue1Color"
-
-                />
-
+                app:tabTextColor="@color/blue1Color"/>
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profile"
@@ -101,9 +97,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="30dp" />
 
-
         </com.google.android.material.appbar.CollapsingToolbarLayout>
-
 
     </com.google.android.material.appbar.AppBarLayout>
 
