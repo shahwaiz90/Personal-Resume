@@ -42,7 +42,7 @@ public class ScrollingActivity extends AppCompatActivity {
         collapsingToolbarLayout.setExpandedTitleColor(Color.parseColor("#00FFFFFF"));
         collapsingToolbarLayout.setCollapsedTitleTypeface(TyperRoboto.ROBOTO_REGULAR());
         collapsingToolbarLayout.setExpandedTitleTypeface(TyperRoboto.ROBOTO_REGULAR());
-        Picasso.get().load(R.drawable.person).into(profileImage);
+        Picasso.get().load(R.drawable.hamza).into(profileImage);
         mViewPagerAdapter.addFragment(AboutFragment.newInstance(), "About");
         mViewPagerAdapter.addFragment(EducationFragment.newInstance(), "Education");
         mViewPagerAdapter.addFragment(ProfessionFragment.newInstance(), "Experience");
