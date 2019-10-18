@@ -1,43 +1,50 @@
 package com.ahmad.cv.adapters;
-import android.app.Activity;
 import android.content.Context;
-import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RatingBar;
+import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
 import com.ahmad.cv.base.R;
+import com.ahmad.cv.model.Skill;
+
 import java.util.List;
-public class ProfessionAdapter extends RecyclerView.Adapter {
-    private List<DemoItem> demoItems;
+public class ProfessionAdapter extends RecyclerView.Adapter<ProfessionAdapter.DemoItemHolder2> {
+    private List<Skill> items;
     private Context        context;
-    public ProfessionAdapter(List<DemoItem> demoItems, Context context) {
-        this.demoItems = demoItems;
+    public ProfessionAdapter(List<Skill> items, Context context) {
+        this.items = items;
         this.context = context;
     }
     @NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public DemoItemHolder2 onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-          View row = inflater.inflate(R.layout.profession, parent, false);
+        View row = inflater.inflate(R.layout.skill_row, parent, false);
         return new DemoItemHolder2(row);
     }
+
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        DisplayMetrics displayMetrics = new DisplayMetrics();
-        ((Activity) context).getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+    public void onBindViewHolder(@NonNull DemoItemHolder2 holder, int position) {
+        holder.rating.setRating(items.get(position).getRating());
+        holder.skill.setText(items.get(position).getSkill());
     }
+
     @Override
     public int getItemCount() {
-        return demoItems.size();
+        return items.size();
     }
-    public class DemoItemHolder2 extends RecyclerView.ViewHolder {
-
+    class DemoItemHolder2 extends RecyclerView.ViewHolder {
+        TextView skill;
+        RatingBar rating;
         DemoItemHolder2(View itemView) {
             super(itemView);
+            skill = itemView.findViewById(R.id.skill_name);
+            rating = itemView.findViewById(R.id.rating);
         }
     }
 

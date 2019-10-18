@@ -4,6 +4,8 @@ import android.os.Bundle;
 import com.ahmad.cv.model.DemoItem;
 import com.ahmad.cv.adapters.ProfessionAdapter;
 import com.ahmad.cv.base.R;
+import com.ahmad.cv.model.Skill;
+
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -37,9 +39,9 @@ public class ProfessionFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
-        RecyclerView recyclerViewDemo = view.findViewById(R.id.recyclerViewDemo3);
+        RecyclerView recyclerViewDemo = view.findViewById(R.id.skill_recycler_view);
         recyclerViewDemo.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerViewDemo.setAdapter(new ProfessionAdapter(feedItems(), getContext()));
+        recyclerViewDemo.setAdapter(new ProfessionAdapter(Skill.getAllSkills(), getContext()));
         return view;
     }
 

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Ahmad\'s CV</string>
+    <string name="app_name">Hamza\'s CV</string>
     <string name="action_settings">Settings</string>
-    <string name="user_name">Ahmad Shahwaiz</string>
-    <string name="resume_title">Teacher | Senior Software Engineer</string>
+    <string name="user_name">Muhammad Hamza</string>
+    <string name="resume_title">Student | Junior Software Engineer</string>
     <string name="user_address">Lahore,Pakistan </string>
     <string-array name="home">
         <item>Home</item>
@@ -11,7 +11,7 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="contact_information">Contact Information</string>
-    <string name="email">ahmadshahwaiz@gmail.com</string>
+    <string name="email">fast.hamza1999@gmail.com</string>
     <string name="Address">Lahore, Pakistan</string>
     <string name="description">Description</string>
     <string name="AboutMe_Title">About Me</string>
@@ -19,7 +19,7 @@
     <string name="Question2">Ownership</string>
     <string name="experience">Experience</string>
     <string name="hands_on_skills">Skills</string>
-    <string name="phoneNumber">+923457893015</string>
+    <string name="phoneNumber">+923040111484</string>
     <string name="Linkedin_IdLink">https://www.linkedin.com/in/ahmadshahwaiz</string>
     <string name="Linkedin_UserName">ahmadshahwaiz</string>
     <string name="Github_UserName">shahwaiz90</string>
