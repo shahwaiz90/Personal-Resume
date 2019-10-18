@@ -1,10 +1,10 @@
-package com.ahmad.cv.fragments;
+package com.hamza1999.cv.fragments;
 import android.os.Bundle;
 
-import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.adapters.ProfessionAdapter;
-import com.ahmad.cv.base.R;
-import com.ahmad.cv.model.Skill;
+import com.hamza1999.cv.model.DemoItem;
+import com.hamza1999.cv.adapters.ProfessionAdapter;
+import com.hamza1999.cv.base.R;
+import com.hamza1999.cv.model.Skill;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;

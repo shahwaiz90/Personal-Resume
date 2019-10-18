@@ -1,4 +1,4 @@
-package com.ahmad.cv.model;
+package com.hamza1999.cv.model;
 
 import java.util.ArrayList;
 

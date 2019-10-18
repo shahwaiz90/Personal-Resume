@@ -1,4 +1,4 @@
-package com.ahmad.cv.adapters;
+package com.hamza1999.cv.adapters;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.base.R;
-import com.ahmad.cv.model.Skill;
+import com.hamza1999.cv.base.R;
+import com.hamza1999.cv.model.Skill;
 
 import java.util.List;
 public class ProfessionAdapter extends RecyclerView.Adapter<ProfessionAdapter.DemoItemHolder2> {

@@ -1,28 +1,28 @@
-package com.ahmad.cv.fragments;
+package com.hamza1999.cv.fragments;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ahmad.cv.model.DemoItem;
-import com.ahmad.cv.adapters.EducationAdapter;
-import com.ahmad.cv.base.R;
+import com.hamza1999.cv.model.DemoItem;
+import com.hamza1999.cv.adapters.AboutAdapter;
+import com.hamza1999.cv.base.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * A simple {@link Fragment} subclass.
  */
-public class EducationFragment extends Fragment {
-
-    public EducationFragment() {
+public class AboutFragment extends Fragment {
+    public AboutFragment() {
         // Required empty public constructor
     }
-    public static EducationFragment newInstance() {
-        EducationFragment fragment = new EducationFragment();
+    public static AboutFragment newInstance() {
+        AboutFragment fragment = new AboutFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -35,22 +35,17 @@ public class EducationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_blank_fragment2, container, false);
-        RecyclerView recyclerViewDemo = view.findViewById(R.id.recyclerViewDemo1);
+        View view = inflater.inflate(R.layout.fragment_blank, container, false);
+        RecyclerView recyclerViewDemo = view.findViewById(R.id.recyclerViewDemo);
         recyclerViewDemo.setLayoutManager(new LinearLayoutManager(getContext()));
-       recyclerViewDemo.setAdapter(new EducationAdapter(feedItems(), getContext()));
+        recyclerViewDemo.setAdapter(new AboutAdapter(feedItems(), getContext()));
         return view;
     }
     private List<DemoItem> feedItems() {
-        String Titles = "Education Section" ;
+        String Titles = "about Section" ;
         List<DemoItem> demoItems = new ArrayList<>();
-        DemoItem demoItem = new DemoItem(Titles);
-        demoItems.add(demoItem);
-        return demoItems;
-
+                DemoItem demoItem = new DemoItem(Titles);
+                demoItems.add(demoItem);
+                return demoItems;
     }
 }
-
-
-
-

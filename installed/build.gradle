@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.hamza.resume"
+        applicationId "com.hamza1999.resume"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

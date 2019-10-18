@@ -1,4 +1,4 @@
-package com.ahmad.cv.adapters;
+package com.hamza1999.cv.adapters;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
